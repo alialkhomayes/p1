@@ -510,9 +510,7 @@ p#MySalad{
 div#logInDiv{
    background-color:white; border-radius: 30px; padding: 100px;
 }
-div#small{
-   display: none;
-}
+
 
 @media  (max-width:1231px){
 
@@ -575,9 +573,7 @@ div#small{
    form#log{
       font-size: 1px;
    }
-   div#home222{
-display:none ;
-   }
+
    div#small{
       display: flex;
       
@@ -613,7 +609,7 @@ display:none ;
 
       }
       label#bartext{
-         font-size: 20px;
+         font-size: 1px;
       }
       p#MySalad{
          font-size: 0px;
@@ -657,36 +653,82 @@ display:none ;
             padding: 0px 0px 0px 20px;
             }
             nav#menuBar{
-               min-width: 40px;
+               min-width: 100%;
       
             }
-            label#bartext{
+            /* label#bartext{
                font-size: 0.1px;
-            }
+            } */
             p#MySalad{
                font-size: 0px;
                font-weight: bold;
             }
-            span#bartext{
+            /* span#bartext{
                display: block;
-            }
-            div#title{
+            } */
+            /* div#title{
                display: block;
-            }
-            span#bartext{
+            } */
+            /* span#bartext{
                transform: scale(0.7);
-            }
-            .containerrr{
+            } */
+            /* .containerrr{
                display: none;
-            }
-            div#onlypadding{
+            } */
+            /* div#onlypadding{
                display: block;
+            } */
+            div#title {
+            
+               box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+
             }
-      
+
+
+            div#home222{
+               flex-direction: column;
+            }
+            img#cheffimg{
+               height: 40vh;
+               width: 40vh;
+            }
+            div#cheffAndSlidePadding{
+               
+               padding: 10px;
+               order:1;
+
+            }
+            nav#menuBar{
+               box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+               order:2;
+            }
+       
+
+            /* button#ordernow{
+               transform: scale(0.7);
+
+               font-size:3px ;
+            
+            } */
+            h1#foodtitle{
+               font-size: 5px;
+            }
+
+            /* img#cheffimg{
+               margin: 0px -30px;
+               height: 80px; width: 80px;
+            } */
+            img#slideimg{
+               height: 60px; width: 60px;
+            }
+            h1#foodDescription{
+               font-size: 1px;
+            }
+         
       
          }
 
-         @media  (max-width:333px){
+         /* @media  (max-width:333px){
             button#ordernow{
                transform: scale(0.7);
 
@@ -708,5 +750,5 @@ display:none ;
                font-size: 1px;
             }
          
-            }
+            } */
    
