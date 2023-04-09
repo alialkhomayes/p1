@@ -625,7 +625,7 @@ p#MySalad{
 
    }
 
-      /* @media  (max-width:555px){
+      @media  (max-width:555px){
          button#ordernow{
             font-size:10px ;
          
@@ -659,9 +659,7 @@ p#MySalad{
                min-width: 40px;
       
             }
-            label#bartext{
-               font-size: 0.1px;
-            }
+  
             p#MySalad{
                font-size: 0px;
                font-weight: bold;
@@ -683,7 +681,7 @@ p#MySalad{
             }
       
       
-         } */
+         }
 
 /*          @media  (max-width:333px){
             button#ordernow{
