@@ -206,6 +206,8 @@ label {
    left: 31px;
  }
  div#title {
+   text-align: center;
+
    padding: 10px 30px 0px 30px;
    /* background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(../img/hero_img.jpg); */
    /* background: url(../img/backgroudnd1111.png); */
@@ -221,7 +223,7 @@ label {
    /* background-attachment: fixed; */
    /* background-repeat: ; */
       display: flex;
-      min-height: 800px;
+      min-height: 100%;
       /* margin: 50px;
       padding: 20px;
       
@@ -527,7 +529,7 @@ p#MySalad{
 @media  (max-width:1231px){
 
    h1#title{
-      font-size: 40px;
+      font-size: 60px;
    }
    h1#undertitle{
       font-size: 30px;
@@ -549,7 +551,7 @@ p#MySalad{
 @media  (max-width:955px){
 
    h1#title{
-      font-size: 30px;
+      font-size: 50px;
    }
    h1#undertitle{
       font-size: 25px;
@@ -581,7 +583,7 @@ p#MySalad{
       display: none;
    }
    h1#title{
-      font-size: 30px;
+      font-size: 40px;
    }
    h1#undertitle{
       font-size: 25px;
@@ -592,9 +594,7 @@ p#MySalad{
    h1#foodDescription{
       font-size: 13px;
    }
-   img#cheffimg{
-      height: 200px; width: 200px;
-   }
+ 
    div#cheffAndSlidePadding{
       padding: 0px 0px 0px 20px;
       }
@@ -603,7 +603,7 @@ p#MySalad{
 
       }
       label#bartext{
-         font-size: 20px;
+         font-size: 15px;
       }
       p#MySalad{
          font-size: 0px;
@@ -616,14 +616,14 @@ p#MySalad{
 
    }
 
-      @media  (max-width:555px){
+      /* @media  (max-width:555px){
          button#ordernow{
             font-size:10px ;
          
          }
          h1#title{
             text-align: center;
-            font-size: 12px;
+            font-size: 20px;
          }
          h1#undertitle{
             text-align: center;
@@ -638,7 +638,7 @@ p#MySalad{
          img#cheffimg{
             display: block;
             margin: 0 auto;
-            height: 100px; width: 100px;
+            height: 21vw; width: 21vw;
          }
          img#slideimg{
             height: 100px; width: 100px;
@@ -674,23 +674,57 @@ p#MySalad{
             }
       
       
-         }
+         } */
 
-         @media  (max-width:333px){
-            button#ordernow{
+         @media  (max-width:530px){
+            div#title{
+
+               min-height: 200px;
+            }
+            h1#title{
+               font-size: 20px;
+            }
+            div#title {
+               box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+
+            }
+
+
+
+            div#home222{
+               flex-direction: column;
+            }
+            img#cheffimg{
+               height: 40vh;
+               width: 40vh;
+            }
+            div#cheffAndSlidePadding{
+               
+               padding: 10px;
+               order:1;
+
+            }
+            nav#menuBar{
+               min-width: 100%;
+               box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+               order:2;
+            }
+       
+
+            /* button#ordernow{
                transform: scale(0.7);
 
                font-size:3px ;
             
-            }
+            } */
             h1#foodtitle{
                font-size: 5px;
             }
 
-            img#cheffimg{
+            /* img#cheffimg{
                margin: 0px -30px;
                height: 80px; width: 80px;
-            }
+            } */
             img#slideimg{
                height: 60px; width: 60px;
             }
@@ -699,4 +733,11 @@ p#MySalad{
             }
          
             }
-   
+            
+            @media  (max-width:275px){
+
+               img#cheffimg{
+                  height: 30vh;
+                  width: 30vh;
+               }
+               }
