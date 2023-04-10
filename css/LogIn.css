@@ -570,9 +570,9 @@ div#logInDiv{
    div#title {
       padding: 5px;
    }
-   form#log{
+   /* form#log{
       font-size: 1px;
-   }
+   } */
 
    div#small{
       display: flex;
@@ -608,9 +608,9 @@ div#logInDiv{
          min-width: 10px;
 
       }
-      label#bartext{
+      /* label#bartext{
          font-size: 1px;
-      }
+      } */
       p#MySalad{
          font-size: 0px;
          font-weight: bold;
