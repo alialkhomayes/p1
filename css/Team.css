@@ -206,7 +206,7 @@ label {
    left: 31px;
  }
  div#title {
-   padding: 10px 30px 0px 30px;
+   padding: 20px 30px 20px 30px;
    /* background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(../img/hero_img.jpg); */
    /* background: url(../img/backgroudnd1111.png); */
    /* background-color: rgb(255, 255, 255); */
@@ -221,7 +221,7 @@ label {
    /* background-attachment: fixed; */
    /* background-repeat: ; */
       display: flex;
-      min-height: 800px;
+      min-height: auto;
       /* margin: 50px;
       padding: 20px;
       
@@ -349,14 +349,14 @@ img#slideimg {
  }
  
  .team-member {
-   background-color: #017760;
-   border-radius: 60px;
+   background-color: rgba(1, 119, 95, 0.765);
+   border-radius: 20px;
    padding: 1rem 100rem 1rem 1rem;
-   
+
 }
 
 .team-member.even {
-   background-color: #017760;
+   background-color: rgba(1, 119, 95, 0.765);
 }
 
 .team-member .hline {
@@ -374,7 +374,7 @@ img#slideimg {
 .team-member .team-member-img {
    padding: 20px;
    position:sticky;
-   border-radius: 200px;
+   border-radius: 10px;
    overflow: hidden;
 }
 
@@ -679,6 +679,102 @@ p#MySalad{
                display: block;
             }
       
+
+   h1#title {
+      text-align: center;
+      font-size: 12px;
+   }
+
+   h1#undertitle {
+      text-align: center;
+      font-size: 8px;
+   }
+
+   h1#foodtitle {
+      font-size: 11px;
+   }
+
+   /* h1#foodDescription{
+            font-size: 1px;
+         } */
+   img#cheffimg {
+      display: block;
+      margin: 0 auto;
+      height: 100px;
+      width: 100px;
+   }
+
+
+   nav#menuBar {
+      min-width: 100%;
+
+   }
+
+   label#bartext {
+      font-size: 13px;
+   }
+
+   span#bartext {
+      display: block;
+   }
+
+   div#title {
+      display: block;
+   }
+
+   div#onlypadding {
+      display: block;
+   }
+
+   div#title {
+
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+   }
+
+
+   div#home222 {
+      flex-direction: column;
+   }
+
+   /* img#cheffimg{
+               height: 40vh;
+               width: 40vh;
+            } */
+   div#cheffAndSlidePadding {
+
+      padding: 10px;
+      order: 1;
+
+   }
+
+   nav#menuBar {
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+      order: 2;
+   }
+
+
+   /* button#ordernow{
+               transform: scale(0.7);
+
+               font-size:3px ;
+            
+            } */
+   h1#foodtitle {
+      font-size: 15px;
+   }
+
+   /* img#cheffimg{
+               margin: 0px -30px;
+               height: 80px; width: 80px;
+            } */
+   img#slideimg {
+      height: 60px;
+      width: 60px;
+   }
+
+
+
+
       
          }
 
