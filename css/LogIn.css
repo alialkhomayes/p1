@@ -507,9 +507,12 @@ min-width: 0vh; min-height: 0vh; padding: 0px 0px 0px 70px;
 p#MySalad{
    font-size: 2rem; color: black;
 }
-div#logInDiv{
-   background-color:white; border-radius: 30px; padding: 100px;
+div#logInDiv {
+   background-color: rgba(255, 255, 255, 0.5); /* set alpha to 0.5 for 50% transparency */
+   border-radius: 30px; 
+   padding: 100px;
 }
+
 
 
 @media  (max-width:1231px){
