@@ -626,9 +626,9 @@ p#MySalad{
          h1#foodtitle{
             font-size: 11px;
          }
-         h1#foodDescription{
+         /* h1#foodDescription{
             font-size: 1px;
-         }
+         } */
          img#cheffimg{
             display: block;
             margin: 0 auto;
@@ -644,9 +644,9 @@ p#MySalad{
                min-width: 40px;
       
             }
-            label#bartext{
+            /* label#bartext{
                font-size: 0.1px;
-            }
+            } */
             p#MySalad{
                font-size: 0px;
                font-weight: bold;
@@ -666,11 +666,57 @@ p#MySalad{
             div#onlypadding{
                display: block;
             }
-      
+           div#title {
+            
+               box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+
+            }
+
+
+            div#home222{
+               flex-direction: column;
+            }
+            /* img#cheffimg{
+               height: 40vh;
+               width: 40vh;
+            } */
+            div#cheffAndSlidePadding{
+               
+               padding: 10px;
+               order:1;
+
+            }
+            nav#menuBar{
+               box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+               order:2;
+            }
+       
+
+            /* button#ordernow{
+               transform: scale(0.7);
+
+               font-size:3px ;
+            
+            } */
+            h1#foodtitle{
+               font-size: 5px;
+            }
+
+            /* img#cheffimg{
+               margin: 0px -30px;
+               height: 80px; width: 80px;
+            } */
+            img#slideimg{
+               height: 60px; width: 60px;
+            }
+            h1#foodDescription{
+               font-size: 1px;
+            }
+         
       
          }
 
-         @media  (max-width:333px){
+         @media  (max-width:280px){
             /* button#ordernow{
                transform: scale(0.7);
 
